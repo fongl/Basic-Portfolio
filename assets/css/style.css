@@ -1,0 +1,220 @@
+.iconWrapper {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  margin: 3%;
+  text-decoration: none;
+}
+
+.icon {
+  height: auto;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-image: url(../images/concrete.png);
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color:#777777;  
+}
+
+p {
+  line-height:175%;  
+  font-size:16px;
+}
+
+form {
+  font-size:20px;
+  line-height:175%;
+}
+
+.submit{
+    border:none;
+    display:inline-block;
+    padding:1.5% 4%;
+    text-decoration:none;
+    color:white;
+    background-color:#4aaaa5;
+    text-align:center;
+    font-size:20px;
+    margin-top:2%;
+}
+
+.submit:hover {
+  background: #AAA;
+  color: #4aaaa5;
+}
+
+.inputBox{
+    padding:1%;
+    display:block; 
+    width:98%;
+    margin-bottom:1.5%;
+}
+
+
+::placeholder {
+    opacity:0.5;
+}
+
+h1 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 31px;
+  color: #4aaaa5;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 24px;
+  color: #4aaaa5;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.leftHr {
+  border-color: #ccc;
+  background-color: #ccc;
+  border-style: solid;
+  height: 1.5px;
+}
+
+.rightHr {
+  border-color: #eee;
+  background-color: #eee;
+  width: 80%;
+  margin-top: 10%;
+  border-style: solid;
+  height: 1.4px;
+}
+
+.leftBox {
+  float: left;
+  width: 50%;
+  margin: 2%;
+  border: 1px solid #ccc;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 8%;
+  background-color: white;
+  padding: 0px 1%;
+}
+
+.rightBox {
+  float: left;
+  width: 18%;
+  height: 23%;
+  margin-top: 5%;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 0.1%;
+  padding-top: 2%;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.leftBoxContent {
+  margin: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height:100%;
+}
+.rightBoxContent {
+  padding-right: 5%;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 9.5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom-color: #aaa;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+}
+
+.blueBox {
+  position: absolute;
+  height: 100%;
+  width: 13%;
+  background-color: #4aaaa5;
+  margin-left: 10%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #444;
+  text-align: center;
+  padding: 1.7% 1.5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+b {
+  top: 16px;
+  position: relative;
+  left: 12px;
+}
+
+.footBorder {
+  position: relative;
+  background-color: #4aaaa5;
+  height: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  text-align: center;
+  background-color: #666666;
+  color: white;
+}
+
+.floatImg {
+  float: left;
+  height: 30%;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+
+.lastLink {
+  margin-right: 16%;
+}
+
+.Lewis {
+  text-align: center;
+  padding: 11%;
+  color: white;
+  font-size: 25px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.iconMargin {
+  margin: 0%;
+}
+.copyright {
+  padding: 1.7%;
+}
