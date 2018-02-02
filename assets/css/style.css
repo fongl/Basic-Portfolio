@@ -1,18 +1,7 @@
-.iconWrapper {
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-  margin: 3%;
+
+/* ---------------------elements--------------------*/
+a {
   text-decoration: none;
-}
-
-.icon {
-  height: auto;
-  width: 100%;
-}
-
-html {
-  height: 100%;
 }
 
 body {
@@ -24,159 +13,54 @@ body {
   color:#777777;  
 }
 
-p {
-  line-height:175%;  
-  font-size:16px;
-}
-
 form {
   font-size:20px;
   line-height:175%;
 }
 
-.submit{
-    border:none;
-    display:inline-block;
-    padding:1.5% 4%;
-    text-decoration:none;
-    color:white;
-    background-color:#4aaaa5;
-    text-align:center;
-    font-size:20px;
-    margin-top:2%;
+html {
+  height: 100%;
 }
 
-.submit:hover {
-  background: #AAA;
-  color: #4aaaa5;
-}
-
-.inputBox{
-    padding:1%;
-    display:block; 
-    width:98%;
-    margin-bottom:1.5%;
-}
-
-
-::placeholder {
-    opacity:0.5;
+p {
+  line-height:175%;  
+  font-size:16px;
 }
 
 h1 {
-  font-family: "Georgia", Times, "Times New Roman", serif;
-  font-size: 31px;
   color: #4aaaa5;
   margin-top: 1%;
   margin-bottom: 3%;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 31px;
   font-weight: bold;
 }
 
 h2 {
-  font-family: "Georgia", Times, "Times New Roman", serif;
-  font-size: 24px;
   color: #4aaaa5;
   margin-top: 2%;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.leftHr {
-  border-color: #ccc;
-  background-color: #ccc;
-  border-style: solid;
-  height: 1.5px;
-}
-
-.rightHr {
-  border-color: #eee;
-  background-color: #eee;
-  width: 80%;
-  margin-top: 10%;
-  border-style: solid;
-  height: 1.4px;
-}
-
-.leftBox {
-  float: left;
-  width: 50%;
-  margin: 2%;
-  border: 1px solid #ccc;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 8%;
-  background-color: white;
-  padding: 0px 1%;
-}
-
-.rightBox {
-  float: left;
-  width: 18%;
-  height: 23%;
-  margin-top: 5%;
-  border: 1px solid #ccc;
-  background-color: white;
-  padding: 0.1%;
-  padding-top: 2%;
-  text-align: center;
-  margin-left: 2%;
-}
-
-.leftBoxContent {
-  margin: 5%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  height:100%;
-}
-.rightBoxContent {
-  padding-right: 5%;
-}
-
-.navbar {
-  background-color: #ffffff;
-  height: 9.5%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  border-bottom-color: #aaa;
-  border-bottom-width: 1.5px;
-  border-bottom-style: solid;
-}
-
+/*---------------------class-------------------*/
 .blueBox {
   position: absolute;
   height: 100%;
-  width: 13%;
-  background-color: #4aaaa5;
+  width: 15%;
   margin-left: 10%;
+  background-color: #4aaaa5;
 }
 
-.navbar a {
-  float: right;
-  display: block;
-  color: #444;
-  text-align: center;
-  padding: 1.7% 1.5%;
-  text-decoration: none;
-  font-size: 17px;
-}
-a {
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-b {
-  top: 16px;
-  position: relative;
-  left: 12px;
+.copyright {
+  padding: 1.7%;
 }
 
 .footBorder {
   position: relative;
+  height: 8%;
   background-color: #4aaaa5;
-  height: 5px;
 }
 
 .footer {
@@ -188,6 +72,7 @@ b {
   text-align: center;
   background-color: #666666;
   color: white;
+  z-index:2;
 }
 
 .floatImg {
@@ -199,22 +84,168 @@ b {
   margin-bottom:1%;
 }
 
-.lastLink {
-  margin-right: 16%;
-}
-
-.Lewis {
-  text-align: center;
-  padding: 11%;
-  color: white;
-  font-size: 25px;
-  font-family: "Georgia", Times, "Times New Roman", serif;
-  font-weight: bold;
+.icon {
+  height: auto;
+  width: 100%;
 }
 
 .iconMargin {
   margin: 0%;
 }
-.copyright {
-  padding: 1.7%;
+
+.iconWrapper {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  margin: 3%;
+  text-decoration: none;
+  box-sizing:border-box;
+}
+
+.imgContainer {
+	float:left;
+  position: relative;
+  height:44%;
+  width:44%;
+  margin:3%;
+  text-align: center;
+  color: white;
+  z-index:1;
+  
+}
+
+.imgResize {
+	height:100%;
+  width:100%;
+}
+
+.inputBox{
+    display:block; 
+    width:98%;
+    margin-bottom:1.5%;
+    padding:1%;
+}
+
+.label {
+  position: absolute;
+  top:67%;
+  width:100%;
+  height:27%;
+  line-height:220%;
+  font-size:26px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color:#4aaaa5;
+}
+
+.lastLink {
+  margin-right: 15%;
+}
+
+.leftBox {
+  float: left;
+  width: 50%;
+  margin: 2%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 8%;
+  padding: 0px 1%;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.leftBoxContent {
+  height:100%;
+  margin: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.leftHr {
+  border-style: solid;
+  border-color: #ccc;
+  background-color: #ccc;
+}
+
+.lewis {
+  text-align: center;
+  padding: 9%;
+  font-size: 25px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 9.5%;
+  width: 100%;
+  border-bottom-color: #BBBBBB;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  background-color: #ffffff;
+  z-index:2;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  padding: 1.7% 1.5%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  color:#777777;
+}
+
+.navbar a:hover {
+  background: #AAEEEE;
+  opacity:0.7;
+  color: black;
+}
+
+.rightBox {
+  float: left;
+  height: 23%;
+  width: 18%;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 2%;
+  padding: 0.1%;
+  padding-top: 2%;  
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.rightBoxContent {
+  padding-right: 5%;
+}
+
+.rightHr {
+  width: 80%;
+  margin-top: 10%;
+  border-style: solid;
+  border-color: #eee;
+  background-color: #eee;
+}
+
+.submit{
+  display:inline-block;
+  text-decoration:none;
+  text-align:center;
+  margin-top:2%;
+  border:none;
+  padding:1.5% 4%;
+  font-size:20px;
+  color:white;
+  background-color:#4aaaa5;
+}
+
+.submit:hover {
+  background-color:#5fbbbb;
+  opacity:0.5;
+  color:#111;
+}
+
+::placeholder {
+  opacity:0.5;
 }
